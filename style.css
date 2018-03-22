@@ -1,0 +1,16 @@
+.cats-list {
+  margin: 0;
+  margin-right: 50px;
+  padding: 20px 20px;
+  list-style-type: none;
+  float: left;
+}
+.cat-list__item {
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.cat-display-area {
+  display: inline-block;
+}
+

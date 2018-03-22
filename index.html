@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Udacity Design Patterns</title>
+  <link rel="stylesheet" href="/app/style.css">
+  <script src="/app/main.js"></script>
+</head>
+
+<body>
+  <div class="cats-wrapper">
+
+    <ul class="cats-list">
+    </ul>
+
+    <div class="cat-display-area">
+      <div class="cat-name"></div>
+      <div class="cat-counter"></div>
+      <img class="cat-img src="" alt="" ">
+    </div>
+    <div class="admin admin-area">
+      <button class="admin__btn">admin</button>
+      <form class="admin__form" hidden>
+        <label for="name">Name</label>
+        <input type="text" name="name" class="admin__form-name"><br>
+        <label for="url">Img url</label>
+        <input type="text" name="url" class="admin__form-url"><br>
+        <label for="clicks">clicks</label>
+        <input type="text" name="clicks" class="admin__form-clicks">
+        <button class="admin__cancel-btn">cancel</button>
+        <button class="admin__save-btn">save</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
