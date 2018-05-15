@@ -153,7 +153,7 @@ function init() {
 
       this.adminSaveBtn.addEventListener('click', function (e) {
         e.preventDefault();
-        controller.updateCurrentCat()
+        controller.updateCurrentCat();
       }.bind(this));
     },
 
